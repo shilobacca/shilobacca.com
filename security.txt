@@ -1,0 +1,27 @@
+ -----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Contact: mailto: shilo@shilobacca.com
+Expires: 2022-12-31T08:00:00.000Z
+Encryption: https://www.shilobacca.com/pgp-key.txt
+Encryption: openpgp4fpr:63d7407ea3f495b6a691a415f27bbd3dfab5c419
+Preferred-Languages: en
+Canonical: https://www.shilobacca.com/.well-known/security.txt
+-----BEGIN PGP SIGNATURE-----
+
+iQJBBAEBCgArJBxTaGlsbyBCYWNjYSA8c2hpbG8uYmFjY2FAZ21haWwuY29tPgUC
+YUmCpgAKCRBIFqfKb4cCsahVD/94IvweOXlatIhY3pSU4C0S26i3w0Te7y4BPmS/
+vuahWhoR+Tr6Lp1NrKWVOx/Md+E0nFQq7KfqlDhJNJ6ukoUtMOQozK8ykSzLkQU2
+84dInDC4J2Vv5pep18Oc1u9XZ14moPp2pqe2ua3Nsw9+TZmGKzNunEGObvr+/8jB
+wIAETFQST4CK7H5KgK8gYjy2B03KaFlXRAfb/Fx/x9afCsUyf1PT8GXXT+WDfpcw
+RJsP5HhDiuzttObb7keogWKGNCJksiShKuG8VPveE/AxNyA1FwQENhRtHb61m+NZ
+ciyRl7MP6HPj5YIeuj6y7irmFFjQ8RkkwWfaq6UBGRtWE43fEJBoUJ73bix9EniY
+IGXGQBzy1xVCo+yo71Iq2ZeEQnIcDiGXeBUZv0H0/dOlHu33SJwskZ5OPKifHjW0
+5vchdUUzXHdqKTUSHSNklrBccHIj5wA6faGHCM6U9Wv//PIQwWJlYRLuIO9CTYIv
+NYih85LEEPvVpPQ5RSZnALVheFgtAIZZu8/AbII/Gp6RnLAwx8A5KvxI87ICAn+r
+t/7rZ64Vq8q4r9GQAnR3KtmVyI0Wv5VyO5v90/u61MVioGdJGVyvbInokRpEppa+
+FwON8C3yVNjonHRTbKv8TgHBosmo/RXKtqi+jZEE+ubZN7Vb4CNH4hdTZdRjmBGf
+CZcKuA==
+=igYo
+-----END PGP SIGNATURE-----
+

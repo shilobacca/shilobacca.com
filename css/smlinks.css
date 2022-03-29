@@ -1,0 +1,25 @@
+.fa {
+  font-size: 50px;
+  margin: 40px 20px 0px 0px;
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
+.fa-twitter {
+  color: #55acee;
+}
+
+.fa-github {
+  color: #000000;
+}
+
+.fa-youtube-play {
+  color: #bb0000;
+}
+
+/* Style the topnav links */
+ul.smlinks li a {
+  float: left;
+}

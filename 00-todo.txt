@@ -1,0 +1,85 @@
+rounded corner... play
+menu case shange
+comment out unneeded CSS
+maskable icons - lose white background?
+favicon generator w bigger pic
+pwa - get static version
+.htaccess - 404 etc
+search?
+contct page
+lightbox page?
+Google search console
+menu - androidx material theme
+google icons
+google fonts? new fonts
+responsive web pages - look at more. use % and em instead of px
+sitemap
+xml generators
+Google maps api key
+other api keys?
+skip link
+cookies... stadard solution
+.clearfix
+authentication: google sign in... sqrl... yubikey
+
+
+
+
+
+
+build 1rm calculator pwa -develop whole gym app, tabata timer,plate calculator, lb/kilo conversion, bmi, weight tracker, workout log
+
+
+
+
+
+
+
+Add space for links (left side, right side, bottom?)
+
+Check Spelling/grammar.
+
+W3C validator/accessibility (508) validator
+
+Which pages keep news?
+
+Change News bar to auto update?
+
+Add fighter page?
+
+Update sitemap
+
+Update photo titles
+
+Clean up rss2feed.xsl (make better html)
+
+Check Google Maps from IE/Firefox.
+
+Add site search (http://www.google.com/services/free.html)?
+
+Submit to dmoz.org
+
+P3P compact policy
+
+Additional custom error pages?
+
+Check photo load time.
+
+On Navigation, change last/first class to remove extra |
+
+Breadcrumbs
+
+
+r pages?
+
+Check photo load time.
+
+On Navigation, change last/first class to remove extra |
+
+Breadcrumbs
+
+Check complaint on formatting (http://forums.smallbusinesscomputing.com/showpost.php?p=10608&postcount=2)
+
+Consider adding some photos to "spice up" the look.
+
+Lighten photos on banner/clean up banner

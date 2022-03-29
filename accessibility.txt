@@ -1,0 +1,52 @@
+
+The home page, projects page, and all archives validate as HTML 4 Strict.
+
+All pages on this site include a consistent set of global navigation links.
+
+Many links have title attributes which describe the link in greater detail, unless the text of the link already fully describes the target (such as the headline of an article).
+
+Wherever possible, links are written to make sense out of context. Many browsers (such as JAWS, Home Page Reader, Lynx, and Opera) can extract the list of links on a page and allow the user to browse the list, separately from the page.
+
+Link text is never duplicated; two links with the same link text always point to the same address.
+
+There are no “javascript:” pseudo-links. All links can be followed in any browser, even if scripting is turned off.
+
+All content images used on this site include descriptive ALT attributes. Purely decorative graphics include empty ALT attributes.
+
+
+
+Accessibility software and services
+
+   1. Bobby, a free service to analyze web pages for compliance to accessibility guidelines.
+   2. HTML Validator, a free service for checking that web pages conform to published HTML standards.
+   3. Web Page Backward Compatibility Viewer, a tool for viewing your web pages without a variety of modern browser features.
+   4. JAWS, a screen reader for Windows. A time-limited demo is available.
+   5. Lynx, a free text-only web browser.
+
+Related resources
+
+   1. WebAIM, a non-profit organization dedicated to improving accessibility to online learning materials.
+   2. Designing More Usable Web Sites, a large list of additional resources.
+   
+This website has been designed from the ground up to be accessible to as wide a base of people as possible, including those who use assistive technology.  The steps taken to ensure this broad base of usability also help make our site easy to use, quick to download, and consistent across a wide range of platforms and devices.
+
+All pages are designed using strict XHTML 1.0, giving the best guaranty of compatibility with past, present, and future web browsers and applications. CSS is used for all page layout and design details. Tables are now only used for the display of tabular data.
+
+If you use an older browser
+
+CSS, which we use for layout and design, is not fully supported by older web browsers, resulting in unpredictable display. To deal with this problem we have hidden the CSS from these older browsers that do not conform to web standards. However, even if you use one of these browsers, you will still be able to access all of our content presented with a simplified layout.
+
+Our statistics show that as of September 2004 more than 95% of our audience use browsers that support CSS. If you are one of the small percentage of people that are unable to see our site as intended, please visit the Web Standards Project's "Browse Happy" website, which gives useful information on upgrading to standards-compliant graphical browsers. The Web Standards Project is an independent, vendor neutral organization.
+
+If you are unable or unwilling to upgrade your browser or if you are prevented from seeing our CSS for other reasons, we hope that you will enjoy the more basic interface. Although not as visually appealing as the CSS interface, it should be just as usable.
+
+
+If you use a text only browser
+
+We have take steps to ensure that users of text only browsers find it easier to use our sites than before, with the addition of "jump" links and features such as horizontal rules to visually separate the content. Site navigation appears after the main content, and is constructed using lists to make it more comprehensible.
+
+Feedback
+
+We have done our best to ensure that our accessible sites render consistently across as wide a range of browsers as possible. Due to slight discrepancies between browsers, imperfections may appear. If you find significant bugs with our site, please contact us - we appreciate all feedback.
+
+

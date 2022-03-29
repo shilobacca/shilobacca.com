@@ -1,0 +1,27 @@
+{
+    "name": "Shilo Bacca",
+    "short_name": "Shilo",
+    "description": "ShiloBacca.com Website, in disguise",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "start_url": "/index.html",
+    "scope": "/",
+    "url": "https://shilobacca.com",
+    "lang": "en-us",
+    "screenshots": [],
+    "orientation": "portrait"
+}
