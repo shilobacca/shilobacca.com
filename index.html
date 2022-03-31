@@ -1,73 +1,57 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="author" content="Shilo Bacca" />
-    <meta
-      name="description"
-      content="Shilo Bacca - Where I work on ideas, projects, and thoughts."
-    />
-    <meta
-      name="keywords"
-      content="Shilo Bacca, web design, HTML, CSS, JavaScript"
-    />
-    <meta
-      name="google-site-verification"
-      content="3JSOffJqDILiw_dRmIcgUvfU7W9c04fYJ1_z4LLoovo"
-    />
 
-    <meta
-      name="have-i-been-pwned-verification"
-      value="468d04d4660f96fa9255bbf18308cabd"
-    />
+<head>
+  <meta charset="utf-8" />
+  <meta name="author" content="Shilo Bacca" />
+  <meta name="description" content="Shilo Bacca - Where I work on ideas, projects, and thoughts." />
+  <meta name="keywords" content="Shilo Bacca, web design, HTML, CSS, JavaScript" />
+  <meta name="google-site-verification" content="3JSOffJqDILiw_dRmIcgUvfU7W9c04fYJ1_z4LLoovo" />
 
-    <!-- Not widely used (robots.txt preferred).  Possible Values: [index,noindex,follow,nofollow,all,none] -->
-    <meta name="robots" content="all" />
+  <meta name="have-i-been-pwned-verification" value="468d04d4660f96fa9255bbf18308cabd" />
 
-    <title>Shilo Bacca - Ideas taking shape</title>
+  <!-- Not widely used (robots.txt preferred).  Possible Values: [index,noindex,follow,nofollow,all,none] -->
+  <meta name="robots" content="all" />
 
-    <!-- Default stylesheet to use -->
-    <link
-      rel="stylesheet"
-      media="screen"
-      href="css/main.css"
-      title="Basic View"
-    />
-    <link rel="stylesheet" media="screen" href="css/smlinks.css" />
-    <!-- Supposed to be the stylesheet automatically used for printing.  Doesn't seem to always work. -->
-    <!--    <link rel="stylesheet" media="print" href="css/print.css" /> -->
-    <!-- Since the printer-friendly stylesheet doesn't always get used automatically, provide a method for the user to select the printer-friendly version -->
-    <!--    <link
+  <title>Shilo Bacca - Ideas taking shape</title>
+
+  <!-- Default stylesheet to use -->
+  <link rel="stylesheet" media="screen" href="css/main.css" title="Basic View" />
+  <link rel="stylesheet" media="screen" href="css/smlinks.css" />
+  <!-- Supposed to be the stylesheet automatically used for printing.  Doesn't seem to always work. -->
+  <!--    <link rel="stylesheet" media="print" href="css/print.css" /> -->
+  <!-- Since the printer-friendly stylesheet doesn't always get used automatically, provide a method for the user to select the printer-friendly version -->
+  <!--    <link
       rel="alternate stylesheet"
       media="screen"
       href="css/print.css"
       title="Printer Friendly View"
     />
 -->
-    <!-- Icons and such from favicon generator -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="theme-color" content="#ffffff" />
+  <!-- Icons and such from favicon generator -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
 
-    <!-- Make the viewport the same size as the screen -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Make the viewport the same size as the screen -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Let user agents now where our favicon.ico ("logo") is located -->
-    <!-- Note that in order to be widely used, I have: a) Placed favicon.ico in the root directory, b) defined favicon.ico as "shortcut icon", c) defined favicon.ico as "icon" I may reconsider this, as I have sized icons already listed.  Or keep these, for legacy support.-->
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <!-- Let user agents now where our favicon.ico ("logo") is located -->
+  <!-- Note that in order to be widely used, I have: a) Placed favicon.ico in the root directory, b) defined favicon.ico as "shortcut icon", c) defined favicon.ico as "icon" I may reconsider this, as I have sized icons already listed.  Or keep these, for legacy support.-->
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
-    <!-- Let the user know that there is an RSS feed available -->
-    <!-- <link rel="alternate" type="application/rss+xml" href="feeds/rss2feed.xml" title="RSS Feed" /> -->
+  <!-- Let the user know that there is an RSS feed available -->
+  <!-- <link rel="alternate" type="application/rss+xml" href="feeds/rss2feed.xml" title="RSS Feed" /> -->
 
-    <!-- Let the user know where the homepage is located -->
-    <link rel="home" title="Home" href="/" />
-    <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
-    <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
-    <!-- To use social readers via microsub, follow these steps.
+  <!-- Let the user know where the homepage is located -->
+  <link rel="home" title="Home" href="/" />
+  <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
+  <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
+  <!-- To use social readers via microsub, follow these steps.
     (Details: https://indieweb.org/Microsub#Getting_Started)
     1. After publishing this to your domain, sign in to https://aperture.p3k.io/login with your domain
     2. You will see a <link> tag displayed on your dashboard that looks like:
@@ -75,165 +59,113 @@
     3. Copy that <link> tag and paste it after this HTML comment.
     4. Publish the updated page!
    -->
-    <link rel="microsub" href="https://aperture.p3k.io/microsub/678" />
-    <link
-      rel="webmention"
-      href="https://webmention.io/www.shilobacca.com/webmention"
-    />
-    <link
-      rel="pingback"
-      href="https://webmention.io/www.shilobacca.com/xmlrpc"
-    />
-    <!--    <link
+  <link rel="microsub" href="https://aperture.p3k.io/microsub/678" />
+  <link rel="webmention" href="https://webmention.io/www.shilobacca.com/webmention" />
+  <link rel="pingback" href="https://webmention.io/www.shilobacca.com/xmlrpc" />
+  <!--    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     /> -->
-  </head>
+</head>
 
-  <body id="home">
-    <div class="flex-container">
-      <div id="skiplinkcontainer">
-        <a class="skiplink" href="#startcontent">Skip over navigation</a>
-      </div>
-      <!-- ***** Header ***** -->
-      <header>
-        <div>
-          <a href="/" title="home" id="logo"
-            ><img
-              src="img/header.webp"
-              width="64"
-              height="64"
-              alt='J.R "Bob" Dobbs'
-              title='J.R "Bob" Dobbs'
-          /></a>
-        </div>
-        <h1>ShiloBacca... dot com</h1>
-        <p>It may not be much, but I call it home</p>
-      </header>
-
-      <!-- ***** Navigation Bar ***** -->
-      <nav>
-        <ul class="nav">
-          <li id="navhome"><a href="/" title="home" class="active">home</a></li>
-          <li id="navabout"><a href="about.html" title="about">about</a></li>
-          <li id="navprojects">
-            <a href="projects.html" title="projects">projects</a>
-          </li>
-          <li id="navcontact">
-            <a href="contact.html" title="contact">contact</a>
-          </li>
-        </ul>
-      </nav>
-
-      <!-- ***** Content ***** -->
-      <main>
-        <section id="startcontent">
-          <h2 class="title">Welcome</h2>
-          <article class="card">
-            <h3>Amazing headline</h3>
-            <p>
-              This is placeholder text. I have this in an article... Should
-              consider if that is an appropriate tag.
-            </p>
-          </article>
-
-          <article class="card h-card" rel="author">
-            <!-- Reference for representative h-card properties: https://microformats.org/wiki/h-card -->
-            <!-- Uncomment and add __your_image__ to display a photo! -->
-            <h3>I am <span class="p-name">Shilo Bacca</span></h3>
-            <img
-              class="u-photo"
-              alt="My profile photo"
-              src="img/profile.jpg"
-              width="64"
-              height="64"
-            />
-
-            <p class="p-note">...and I am a human on the Internet.</p>
-
-            <!-- Replace __this_page__ with your domain -->
-            <p>
-              <a class="u-uid u-url" href="https://www.shilobacca.com"
-                >My New Website</a
-              >
-            </p>
-            <ul class="smlinks">
-              <li>
-                <a
-                  class="u-url"
-                  href="https://github.com/shilobacca"
-                  rel="me noopener nofollow noreferrer"
-                  target="_blank"
-                  aria-label="GitHub"
-                  title="GitHub - Shilo Bacca"
-                  ><span class="fa fa-github"></span
-                ></a>
-              </li>
-              <li>
-                <a
-                  class="u-url"
-                  href="https://twitter.com/ShiloBacca"
-                  rel="me noopener nofollow noreferrer"
-                  target="_blank"
-                  aria-label="Twitter"
-                  title="Twitter - Shilo Bacca"
-                  ><span class="fa fa-twitter"></span
-                ></a>
-              </li>
-              <li>
-                <a
-                  class="u-url"
-                  href="https://www.youtube.com/c/ShiloBacca"
-                  rel="me noopener nofollow noreferrer"
-                  target="_blank"
-                  aria-label="YouTube"
-                  title="YouTube - Shilo Bacca"
-                  ><span class="fa fa-youtube-play"></span
-                ></a>
-              </li>
-            </ul>
-          </article>
-        </section>
-      </main>
-
-      <!-- ***** Footer ***** -->
-      <footer>
-        <p>
-          Copyright &#xA9; 2021, Shilo Bacca (<a
-            href="https://www.shilobacca.com/"
-            title="ShiloBacca.com"
-            >ShiloBacca.com</a
-          >)
-        </p>
-        <p>All rights reserved.</p>
-        <ul class="footnav">
-          <li id="footnavprivacy">
-            <a href="privacy.html" id="privacy" title="Privacy Policy"
-              >Privacy Policy</a
-            >
-          </li>
-          <li id="footnavsitemap">
-            <a href="sitemap.html" id="sitemap" title="Site Map">Site Map</a>
-          </li>
-          <li id="footnavaccessibility">
-            <a
-              href="accessibility.html"
-              id="accessibility"
-              title="Accessibility Statement"
-              >Accessibility Statement</a
-            >
-          </li>
-        </ul>
-      </footer>
+<body id="home">
+  <div class="flex-container">
+    <div id="skiplinkcontainer">
+      <a class="skiplink" href="#startcontent">Skip over navigation</a>
     </div>
+    <!-- ***** Header ***** -->
+    <header>
+      <div>
+        <a href="/" title="home" id="logo"><img src="img/header.webp" width="64" height="64" alt='J.R "Bob" Dobbs'
+            title='J.R "Bob" Dobbs' /></a>
+      </div>
+      <h1>ShiloBacca... dot com</h1>
+      <p>It may not be much, but I call it home</p>
+    </header>
 
-    <script src="js/main.js"></script>
-    <script
-      src="https://kit.fontawesome.com/121ab1aaa4.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-HH5J8S2R6W"></script>
+    <!-- ***** Navigation Bar ***** -->
+    <nav>
+      <ul class="nav">
+        <li id="navhome"><a href="/" title="home" class="active">home</a></li>
+        <li id="navabout"><a href="about.html" title="about">about</a></li>
+        <li id="navprojects">
+          <a href="projects.html" title="projects">projects</a>
+        </li>
+        <li id="navcontact">
+          <a href="contact.html" title="contact">contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- ***** Content ***** -->
+    <main>
+      <section id="startcontent">
+        <h2 class="title">Welcome</h2>
+        <article class="card">
+          <h3>Amazing headline</h3>
+          <p>
+            This is placeholder text. I have this in an article... Should
+            consider if that is an appropriate tag.
+          </p>
+        </article>
+
+        <article class="card h-card" rel="author">
+          <!-- Reference for representative h-card properties: https://microformats.org/wiki/h-card -->
+          <!-- Uncomment and add __your_image__ to display a photo! -->
+          <h3>I am <span class="p-name">Shilo Bacca</span></h3>
+          <img class="u-photo" alt="My profile photo" src="img/profile.jpg" width="64" height="64" />
+
+          <p class="p-note">...and I am a human on the Internet.</p>
+
+          <!-- Replace __this_page__ with your domain -->
+          <p>
+            <a class="u-uid u-url" href="https://www.shilobacca.com">My New Website</a>
+          </p>
+          <ul class="smlinks">
+            <li>
+              <a class="u-url" href="https://github.com/shilobacca" rel="me noopener nofollow noreferrer"
+                target="_blank" aria-label="GitHub" title="GitHub - Shilo Bacca"><span class="fa fa-github"></span></a>
+            </li>
+            <li>
+              <a class="u-url" href="https://twitter.com/ShiloBacca" rel="me noopener nofollow noreferrer"
+                target="_blank" aria-label="Twitter" title="Twitter - Shilo Bacca"><span
+                  class="fa fa-twitter"></span></a>
+            </li>
+            <li>
+              <a class="u-url" href="https://www.youtube.com/c/ShiloBacca" rel="me noopener nofollow noreferrer"
+                target="_blank" aria-label="YouTube" title="YouTube - Shilo Bacca"><span
+                  class="fa fa-youtube-play"></span></a>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+
+    <!-- ***** Footer ***** -->
+    <footer>
+      <p>
+        Copyright &#xA9; 2021, Shilo Bacca (<a href="https://www.shilobacca.com/"
+          title="ShiloBacca.com">ShiloBacca.com</a>)
+      </p>
+      <p>All rights reserved.</p>
+      <ul class="footnav">
+        <li id="footnavprivacy">
+          <a href="privacy.html" id="privacy" title="Privacy Policy">Privacy Policy</a>
+        </li>
+        <li id="footnavsitemap">
+          <a href="sitemap.html" id="sitemap" title="Site Map">Site Map</a>
+        </li>
+        <li id="footnavaccessibility">
+          <a href="accessibility.html" id="accessibility" title="Accessibility Statement">Accessibility Statement</a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="https://kit.fontawesome.com/121ab1aaa4.js" crossorigin="anonymous"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-HH5J8S2R6W"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -241,5 +173,6 @@
 
   gtag('config', 'G-HH5J8S2R6W');
 </script> -->
-  </body>
+</body>
+
 </html>
